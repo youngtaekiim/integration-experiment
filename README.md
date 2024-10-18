@@ -1,6 +1,6 @@
 # 3-way integration test
 
-This branch describes the [Bluechi](https://github.com/eclipse-bluechi/bluechi) - [Pullpiri](https://github.com/eclipse-pullpiri) - [Symphony](https://github.com/eclipse-symphony/symphony) integration testing process. The content is continuously updated.
+This branch describes the [Bluechi](https://github.com/eclipse-bluechi/bluechi) - [Pullpiri](https://github.com/eclipse-pullpiri) - [Symphony](https://github.com/eclipse-symphony/symphony) integration testing process. The contents is continuously updated.
 
 **Note** : Pullpiri is currently under preparation. This document was written based on the former name, Piccolo.
 
@@ -45,7 +45,7 @@ height="100%"
 
 If you have read and followed the bluechi documentation carefully, you will know all the basics.
 You just need to set the hostname of each node.
-I used HPC, ZONE
+I used HPC, ZONE.
 ```sh
 # in main node
 hostnamectl hostname HPC
@@ -65,7 +65,7 @@ YAML_STORAGE=/root/piccolo_yaml
 HOST_NODE=HPC
 GUEST_NODE=ZONE
 GUEST_NODE_ID=root
-GUEST_NODE_PW=lge123
+GUEST_NODE_PW=1q2w3e4r
 DOC_REGISTRY=http://192.168.50.104:41234
 ;more items will be added
 ```
